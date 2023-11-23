@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 30 100 100" width="200" height="200">
+  <!-- Robot head with diagonal and horizontal red lines -->
+  <rect x="0" y="0" width="100" height="100" fill="#1DA1F2" />
+
+  <!-- Red diagonal line from left edge to center of the Jia circle -->
+  <line x1="0" y1="15" x2="75" y2="40" stroke="red" stroke-width="2" />
+
+  <!-- Red horizontal line from left edge of the Jia circle to the right edge of the robot's face -->
+  <line x1="60" y1="40" x2="100" y2="40" stroke="red" stroke-width="2" />
+
+  <!-- Left eye (white) -->
+  <circle cx="25" cy="40" r="15" fill="white" />
+
+  <!-- Left pupil (Twitter blue) -->
+  <circle cx="25" cy="40" r="5" fill="#1DA1F2" />
+
+  <!-- Traditional Chinese character "家" (Jia) in a smaller red circle inside the right eye -->
+  <g style="isolation: isolate;">
+    <!-- Right eye (white) -->
+    <circle cx="75" cy="40" r="15" fill="white" />
+
+    <!-- Jia circle (red) without outline and matching the size of the left eye -->
+    <circle cx="75" cy="40" r="15" fill="red" />
+
+    <!-- More blocky style of Chinese font for larger Jia character -->
+    <text x="75" y="40" font-size="18" text-anchor="middle" dy=".3em" font-family="SimHei" fill="white">家</text>
+  </g>
+
+  <!-- Robot mouth (white) -->
+  <rect x="30" y="80" width="40" height="10" fill="white" />
+</svg>
